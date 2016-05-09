@@ -1,7 +1,6 @@
 library(shiny)
 library(car)
 
-# Define server logic required to draw a histogram
 shinyServer(function(input, output) {
   
   # The app simulates two variables (x and y) so that y is dependent on x. 
